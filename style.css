@@ -1,0 +1,109 @@
+body {background: #EFD3D7;
+
+width: 100%;}
+
+h1 {text-align: center;
+color: #2A0800;
+font-style: italic;
+background: transparent;
+font-size: 60px;
+padding: 10px;
+width: 30%;
+margin: auto;
+font-family: 'Verdana', sans-serif;
+
+}
+
+h2 {text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;}
+
+h3 {text-align: left;
+   font-family: 'Poppins', sans-serif;
+    font-style: italic;}    
+
+p {font-family: 'Roboto', sans-serif;
+    color: #6B5E62;
+
+}
+
+img {
+border: 1px;
+    border-radius: 20px;
+}
+
+#special { 
+color:#775144;
+background:transparent;
+font-weight: bold;
+font-style: italic;
+float: left;
+}
+
+.highlighted{
+    color: #775144;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12;
+    font-weight: 900;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#transparentbk{
+     position: static;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    text-align: left;
+    float: left;
+    background-color: transparent;
+    width:500px;
+    border: 2px ;
+    padding: 5px;
+    margin: 20px;
+}
+
+#purplebk{
+    background-color: #EFEFF0;
+    width:300px;
+    float: right;
+    border: 5px dotted black;
+    padding: 5px;
+    margin: 25px;
+}
+
+#content th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #D5CAD6;
+    color: black;
+}
+
+#process th { 
+    font-family: 'Roboto', sans-serif;
+    border: 5px black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #6B5E62;
+    color: white;
+}
+
+table, th, td {
+    background-color: white;
+
+
+    font-family: 'Poppins', sans-serif;
+    text-align:justify-all;
+    border-collapse: collapse;
+  border: 2px solid;
+}
